@@ -1,0 +1,252 @@
+.list{
+    display:flex;
+    list-style: none;
+    j
+    padding: 20px 70px ;
+    padding-right: 30px;
+
+}
+.list li{
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.sec{
+    display: flex;
+}
+.nav1{
+    background-color: #e11b23;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding-bottom: 1px;
+    text-emphasis-color: white;
+    box-sizing: border-box;
+}
+.nav1 a{
+    justify-content: space-between;
+    padding-left: 30px;
+    display: inline-block;
+    color: white;
+    margin-left: 30px;
+    right: 200px;
+    background-color: #ed2d2f;
+   text-align: center;
+   padding: 15px;
+}
+.nav1 h4{
+    display: flex;
+    position: relative;
+   
+    color:white;
+    padding-left: 25px;
+    left: 200px;
+    flex-wrap: wrap;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+
+    left: 50px;
+    position: relative;
+}
+.menu{
+    float: right;
+    position: relative;
+    right: 30px;
+   display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    color: #000;
+    display: inline-block;
+    height: 50px;
+   
+    
+}
+.wrap .btn{
+  top: 20px;
+}
+
+
+
+.menu i{
+    margin-left: 35px;
+}
+.menu i:hover,
+ .menu  i:active{
+  color:#e44215;
+  transition: 0.2s;
+  
+ }
+ 
+ .menu  i:active::after,
+  .menu  i:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #e34f0f;
+    position: absolute;
+    bottom: 25px;
+    
+    
+  }
+  .menu li{
+    display:inline;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+  }
+  .fa-solid fa-magnifying-glass :hover,
+  .fa-solid fa-magnifying-glass :active{
+     content: ;
+  }
+
+  .wrap .btn{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 50x;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+  }
+  .wrap .btn:hover{
+           width: 400px;
+  }
+  .wrap .btn .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    line-height: 60px;
+  }
+  .wrap .btn .icon{
+    font-size: 17px;
+    line-height: 60px;
+
+  }
+  .wrap .btn .span{
+    font-size: 20px;
+
+  }
+  .navi input{
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+   
+      
+  }
+  .navi{
+    padding: 100px 200px;
+    
+  }
+  .menu i{
+    float: right;
+       
+  }
+  .menu span{
+    float: right;
+  }
+  .list li{
+     font-size: 17px;
+     color: #000;
+     text-decoration:dashed;
+     list-style: none;
+  }
+  .section{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider{
+    width: 1300px;
+    height: 500px;
+    overflow: hidden;
+  }
+  .slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  .slide input{
+    display: none;
+  }
+  .st{
+    width: 20%;
+    transition: 2s;
+  }
+  .st img{
+    width: 1300px;
+    height: 500px;
+  }
+  .navm{
+    position: absolute;
+    width: 800px;
+    margin-top:530px;
+    
+    left: 600px;
+    justify-content: center;
+    display: flex;
+
+  }
+  .m-btn{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .m-btn:not(:last-child){
+    margin-right: 30px;
+  }
+  #radio1:checked~.first{
+    margin-left: 0;
+  }
+  #radio2:checked~.first{
+    margin-left: -20%;
+  }
+  #radio3:checked~.first{
+    margin-left: -40%;
+  }
+  #radio4:checked~.first{
+    margin-left: -60%;
+  }
+  .auto{
+    position: absolute;
+    width: 800px;
+    margin-top:530px;
+    display: flex;
+    left: 400px;
+  }
+  .auto div{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+
+    transition: 1s;
+  }
+  .auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+  }
+  .auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+
+  }
+  #radio1:checked~.auto .a-b1{
+    background-color: #23e3c2;
+  }
+  #radio2:checked~.auto .a-b2{
+    background-color: #23e3c2;
+  }
+  #radio3:checked~.auto .a-b3{
+    background-color: #23e3c2;
+  }
+  #radio4:checked~.auto .a-b4{
+    background-color: #23e3c2;
+  }
